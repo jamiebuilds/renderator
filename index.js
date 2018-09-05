@@ -4,9 +4,9 @@ var React = require('react');
 var immutagen = require('immutagen')['default'];
 
 function renderator(generator) {
-  function RenderatorComponent(props) {
-    generator = immutagen(generator);
+  generator = immutagen(generator);
 
+  function RenderatorComponent(props) {
     function compose(context) {
       if (!context.next) {
         return context.value;
