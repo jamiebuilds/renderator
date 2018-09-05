@@ -1,0 +1,20 @@
+{
+  "name": "renderator",
+  "version": "0.0.0",
+  "description": "Render props as generators",
+  "main": "index.js",
+  "repository": "https://github.com/jamiebuilds/renderator",
+  "author": "Jamie Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "scripts": {
+    "example": "parcel example/index.html"
+  },
+  "dependencies": {
+    "immutagen": "^1.0.7",
+    "react": "^16.4.2"
+  },
+  "devDependencies": {
+    "parcel": "^1.9.7",
+    "react-dom": "^16.4.2"
+  }
+}
